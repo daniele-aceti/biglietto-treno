@@ -1,4 +1,4 @@
-      submitButton.addEventListener(`click`, function (event){
+      submitButton.addEventListener("click", function (event){
 
       let distance = document.querySelector("#distance")
       let age = document.querySelector("#age")
