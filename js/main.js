@@ -1,21 +1,21 @@
       submitButton.addEventListener("click", function (event){
+         event.preventDefault
 
       let distance = document.querySelector("#distance")
       let age = document.querySelector("#age")
       let submitButton = document.querySelector("#submitButton")
       let price = document.querySelector("#price")
       let ticket = 0.21 * Number(distance.value)
-        
+      let finalPrice = price.innerHTML = `Il prezzo del biglietto è: ${ticket.toFixed(2).replace(`.`, `,`)}€`
 
          if(age.value >= 65){
             ticket -= (ticket*0.4)
-            console.log(ticket.typeOf)
+            finalPrice
          }else if (age.value <= 18){
              ticket -= (ticket*0.2)
-             console.log(ticket.typeOf)
+             finalPrice
          }else{
-            console.log(ticket.typeOf)
-            //price.innerHTML = `Il prezzo del biglietto è: ${ticket.value}`
+            finalPrice
          }
          })
          
