@@ -41,7 +41,6 @@
       let ticket = 0.21 * Number(distance.value)
       let finalPrice = price.innerHTML = `Il prezzo del biglietto è: ${ticket.toFixed(2).replace(`.`, `,`)}€`
 
-      console.log(distance + age)
 
       if(Number(age.value) >= 65){
             ticket -= (ticket*0.4)
