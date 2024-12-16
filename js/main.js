@@ -33,7 +33,7 @@
          
       //load button
       submitButton.disabled = false
-      spinnerEl.classList.toggle(`d-none`)
+      spinnerEl.classList.toggle("d-none")
       statusSpan.innerHTML = orginalText
 
       //load price
