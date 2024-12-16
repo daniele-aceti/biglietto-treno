@@ -43,10 +43,10 @@
 
       console.log(distance + age)
 
-      if(age.value >= 65){
+      if(Number(age.value) >= 65){
             ticket -= (ticket*0.4)
             finalPrice
-      }else if (age.value <= 18){
+      }else if (Number(age.value) <= 18){
              ticket -= (ticket*0.2)
              finalPrice
       }else{
