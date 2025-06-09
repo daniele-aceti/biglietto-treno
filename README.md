@@ -1,5 +1,7 @@
 # 🎫 Biglietto Treno - Form
 
+📅 Ultimo aggiornamento 16/12/2024
+
 **HTML** • **CSS** • **JavaScript**
 
 > Applicazione front-end per il calcolo del prezzo di un biglietto del treno in base ai chilometri da percorrere e all'età del passeggero, con sconti dinamici.
